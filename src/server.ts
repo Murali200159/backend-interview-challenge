@@ -22,6 +22,11 @@ const db = new Database(process.env.DATABASE_URL || './data/tasks.sqlite3');
 app.use('/api/tasks', createTaskRouter(db));
 app.use('/api', createSyncRouter(db));
 
+// ✅ Add this root route
+app.get('/', (req, res) => {
+  res.send('✅ Backend API is running successfully on Render!');
+});
+
 // Error handling
 app.use(errorHandler);
 
