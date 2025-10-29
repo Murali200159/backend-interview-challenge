@@ -18,10 +18,20 @@
     "type": "git",
     "url": "git+https://github.com/Murali200159/backend-interview-challenge.git"
   },
-  "keywords": ["node", "express", "typescript", "api", "backend", "challenge"],
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "api",
+    "backend",
+    "challenge"
+  ],
   "author": "Murali",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18.x"
+  },
   "bugs": {
     "url": "https://github.com/Murali200159/backend-interview-challenge/issues"
   },
