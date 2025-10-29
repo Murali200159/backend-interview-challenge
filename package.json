@@ -1,12 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "PearlThoughts Backend Interview Challenge - Node.js + Express + TypeScript",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "nodemon --watch src --exec tsx src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "tsx src/server.ts",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage",
@@ -16,16 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senguttuvang/backend-interview-challenge.git"
+    "url": "git+https://github.com/Murali200159/backend-interview-challenge.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "express", "typescript", "api", "backend", "challenge"],
+  "author": "Murali",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/senguttuvang/backend-interview-challenge/issues"
+    "url": "https://github.com/Murali200159/backend-interview-challenge/issues"
   },
-  "homepage": "https://github.com/senguttuvang/backend-interview-challenge#readme",
+  "homepage": "https://github.com/Murali200159/backend-interview-challenge#readme",
   "dependencies": {
     "axios": "^1.11.0",
     "cors": "^2.8.5",
